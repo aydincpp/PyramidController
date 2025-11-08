@@ -1,7 +1,7 @@
 This is my second project using C++ and OpenGL.
 In the past month, I studied linear algebra and tried to understand how the model-view projection works.
 
-![Demo](./demo.GIF)
+![Demo](./demo.png)
 
 ## Dependencies
 
