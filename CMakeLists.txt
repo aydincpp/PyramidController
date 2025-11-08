@@ -40,6 +40,7 @@ target_include_directories(imgui PUBLIC
     "${IMGUI_DIR}"
     "${IMGUI_DIR}/backends"
 )
+target_link_libraries(imgui PUBLIC glfw)
 
 # --- MAIN EXECUTABLE ---
 file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS src/*.cpp src/*.h)
