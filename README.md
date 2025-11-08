@@ -16,7 +16,7 @@ In the past month, I studied linear algebra and tried to understand how the mode
 ```bash
 cmake -S . -B build
 cmake --build build
-./build/PyramidGL
+./build/PyramidController
 ```
 
 ### Windows (Command Prompt / PowerShell)
