@@ -130,7 +130,7 @@ int main()
     // pyramid vertices data
     // clang-format off
     std::vector<Vertex> pyVertices = {
-        // position                            // color
+        // position                                  // color
         Vertex(glm::vec3(+000.0f, +180.0f, +000.0f), glm::vec4(1, 0, 0, 1)), // apex
         Vertex(glm::vec3(-100.0f, -100.0f, -100.0f), glm::vec4(0, 1, 0, 1)), // base bottom-left
         Vertex(glm::vec3(+100.0f, -100.0f, -100.0f), glm::vec4(0, 0, 1, 1)), // base bottom-right
@@ -349,7 +349,7 @@ int main()
         glUniform1i(gridAnimLoc, false);
 
         // if you are reading this code, then this part is optional you can set the initCamAnim to
-        // false or just remove this while loop
+        // false or just remove this if block
         if (initCamAnim) {
             float targetX = 500.0f;
             float lerpFactor = 0.08f;
